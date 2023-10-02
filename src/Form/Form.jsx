@@ -2,7 +2,7 @@ const Form = () => {
     return (
         <div className="antialiased bg-gray-100">
             <div className="flex w-full min-h-screen justify-center items-center">
-                <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0  bg-cyan w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
+                <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0  bg-blue-900 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white">
                     <div className="flex flex-col space-y-8  justify-between ">
                         <div>
                             <h1 className="font-bold text-4xl tracking-wide ">Contact Us</h1>
@@ -30,21 +30,21 @@ const Form = () => {
                         </div>
                     </div>
                 <div>
-                    <div className="bg-white rounded-xl shadow-lg p-8 text-gray-600">
+                    <div className="bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
                         <form action="" className="flex flex-col space-y-4">
                             <div>
                             <label htmlFor="">Your Name</label>
-                            <input type="text" placeholder="Your name" className=" ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-teal" />
+                            <input type="text" placeholder="Your name" className=" ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-blue-600" />
                             </div>
                             <div>
                             <label htmlFor="">Email Address</label>
-                            <input type="text" placeholder="Email Address" className=" ring-1 ring-gray-300 w-full rounded-md px-4 mt-2 py-2 outline-none focus:ring-2 focus:ring-teal" />
+                            <input type="text" placeholder="Email Address" className=" ring-1 ring-gray-300 w-full rounded-md px-4 mt-2 py-2 outline-none focus:ring-2 focus:ring-blue-600" />
                             </div>
                             <div>
                             <label htmlFor="">Message</label>
-                            <textarea name="" id="" cols="" rows="5" placeholder="Message" className=" ring-1 ring-gray-300 w-full rounded-md px-4 mt-2 py-2 outline-none focus:ring-2 focus:ring-teal"></textarea>
+                            <textarea name="" id="" cols="" rows="5" placeholder="Message" className=" ring-1 ring-gray-300 w-full rounded-md px-4 mt-2 py-2 outline-none focus:ring-2 focus:ring-blue-600"></textarea>
                             </div>
-                            <button className="inline-block self-end bg-cyan text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send Message</button>
+                            <button className="inline-block self-end bg-blue-900 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">Send Message</button>
 
                         </form>
                     </div>
